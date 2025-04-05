@@ -1,0 +1,14 @@
+// From the bignning to the end
+
+npm init -y    
+
+npm install @nestjs/common@latest @nestjs/core@latest @nestjs/platform-express@latest reflect-metadata@latest typescript
+
+// Now to run the app abue to 02-04 final
+npx ts-node-dev src/main.ts
+
+
+
+
+// In the AppModule there is a providers, what is it?
+Providers means: Things that can be used as dependencies for other classes:[]
